@@ -44,7 +44,7 @@ class BooksApp extends React.Component {
     }
 
     initializeSearch(){
-        this.setState({searchedBooks:[], query:'',shelfBooks:[]})
+        this.setState({searchedBooks:[], query:''})
     }
     handleChangeSearch(query) {
 
